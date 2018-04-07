@@ -1,0 +1,12 @@
+[HDP-2.6.3.0]
+name=HDP-2.6.3.0
+baseurl=http://centos-7.c.woven-mesh-196812.internal/HDP/centos7/2.6.3.0-235/
+gpgcheck=0
+enabled=1
+priority=1
+[HDP-UTILS-1.1.0.21]
+name=Hortonworks Data Platform Version - HDP-UTILS-1.1.0.21
+baseurl=http://centos-7.c.woven-mesh-196812.internal/HDP-UTILS/
+gpgcheck=0
+enabled=1
+priority=1
