@@ -1,0 +1,5 @@
+./gcloud compute ssh --zone=us-east1-c --ssh-flag="-D" --ssh-flag="10002" --ssh-flag="-N" "centos-7"
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome "http://centos-7:8080" --proxy-server="socks5://localhost:10002" --host-resolver-rules="MAP * 0.0.0.0 , EXCLUDE localhost" --user-data-dir=/tmp/centos-7
+
+./gcloud compute ssh --zone=us-east1-c --ssh-flag="-D" --ssh-flag="10003" --ssh-flag="-N" "hdpdruid-1"
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome "http://hdpdruid-1:8080" --proxy-server="socks5://localhost:10003" --host-resolver-rules="MAP * 0.0.0.0 , EXCLUDE localhost" --user-data-dir=/tmp/hdpdruid-1
