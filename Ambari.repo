@@ -1,0 +1,8 @@
+#VERSION_NUMBER=2.6.0.0-267
+[ambari-2.6.0.0]
+name=ambari Version - ambari-2.6.0.0
+baseurl=http://centos-7.c.woven-mesh-196812.internal/ambari/centos7/2.6.0.0-267/
+gpgcheck=1
+gpgkey=http://centos-7.c.woven-mesh-196812.internal/ambari/centos7/2.6.0.0-267/RPM-GPG-KEY/RPM-GPG-KEY-Jenkins
+enabled=1
+priority=1
